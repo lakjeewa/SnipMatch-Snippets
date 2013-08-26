@@ -1,0 +1,20 @@
+{
+  "patterns": [
+    "sort $array in descending order",
+    "$array sort in descending order"
+  ],
+  "params": [
+    {
+      "name": "array",
+      "majorType": "expr",
+      "minorType": "$array"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "Arrays.sort(${array}, Collections.reverseOrder());
+  ${imp:import(java.util.Arrays,java.util.Collections)}${cursor}",
+  "summary": "Sort array in descending order (quicksort2222222)",
+  "id": ""
+}

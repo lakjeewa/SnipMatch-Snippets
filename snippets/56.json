@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "get name of current Java method"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "String ${methodName} = Thread.currentThread().getStackTrace()[1].getMethodName();",
+  "summary": "Get name of current Java method",
+  "id": ""
+}

@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "if "
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "if(${cursor}){\r\n}",
+  "summary": "if statement",
+  "id": ""
+}

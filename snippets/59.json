@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    "split $string into an array delimited by $delimiter",
+    "explode $string into an array delimited by $delimiter",
+    "divide the characters in $string into an array separated by $delimiter"
+  ],
+  "params": [
+    {
+      "name": "string",
+      "majorType": "expr",
+      "minorType": "String"
+    },
+    {
+      "name": "delimiter",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "String[] ${result} = ${string}.split(${delimiter});",
+  "summary": "Split $string into an array delimited by $substring",
+  "id": ""
+}

@@ -1,0 +1,29 @@
+{
+  "patterns": [
+    "resize frame $frame to $width $height",
+    "resize window $frame to $width $height"
+  ],
+  "params": [
+    {
+      "name": "frame",
+      "majorType": "expr",
+      "minorType": "javax.swing.JFrame"
+    },
+    {
+      "name": "width",
+      "majorType": "expr",
+      "minorType": "int"
+    },
+    {
+      "name": "height",
+      "majorType": "expr",
+      "minorType": "int"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "${frame}.setSize(${width}, ${height});",
+  "summary": "Set the size of a Swing window.",
+  "id": ""
+}

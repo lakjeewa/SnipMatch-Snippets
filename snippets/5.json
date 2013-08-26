@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    "path to Windows desktop folder",
+    "path to Windows desktop directory"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "String",
+  "code": "(System.getProperty(\"user.home\") + \"\\\\Desktop\")",
+  "summary": "Path to the Windows desktop directory.",
+  "id": ""
+}

@@ -1,0 +1,23 @@
+{
+  "patterns": [
+    "for $loopable",
+    "loop $loopable",
+    "foreach $loopable",
+    "for each $loopable"
+  ],
+  "params": [
+    {
+      "name": "loopable",
+      "majorType": "expr",
+      "minorType": "$loopable"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "for (${iterable_type} ${iterable_element} : ${iterable}) {
+	${cursor}
+}",
+  "summary": "Loop through an array or iterable.",
+  "id": ""
+}

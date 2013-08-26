@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "while"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "while(${cursor}){\r\n}",
+  "summary": "While loop",
+  "id": ""
+}

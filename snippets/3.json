@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    "println $obj"
+  ],
+  "params": [
+    {
+      "name": "obj",
+      "majorType": "expr",
+      "minorType": ""
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "System.out.println(${obj});",
+  "summary": "Print line to standard output.",
+  "id": ""
+}

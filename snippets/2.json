@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "for $n",
+    "loop $n"
+  ],
+  "params": [
+    {
+      "name": "n",
+      "majorType": "expr",
+      "minorType": "int"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "for (int ${i:iter} \u003d 0; ${i} \u003c ${n}; ${i}++) {\r\n\t${cursor}\r\n}",
+  "summary": "Loop for n times.",
+  "id": ""
+}

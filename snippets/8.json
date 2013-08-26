@@ -1,0 +1,24 @@
+{
+  "patterns": [
+    "set Swing $textField columns to $columns",
+    "set textbox $textField width to $columns"
+  ],
+  "params": [
+    {
+      "name": "textField",
+      "majorType": "expr",
+      "minorType": "javax.swing.JTextField"
+    },
+    {
+      "name": "columns",
+      "majorType": "expr",
+      "minorType": "int"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "${textField}.setColumns(${columns});",
+  "summary": "Set the column width of a Swing text field.",
+  "id": ""
+}

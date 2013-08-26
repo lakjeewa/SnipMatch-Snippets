@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "elseif"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "elseif(${cursor})\r\n{\r\n}",
+  "summary": "elseif statement",
+  "id": ""
+}

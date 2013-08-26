@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "lowercase $string",
+    "$string lowercase"
+  ],
+  "params": [
+    {
+      "name": "string",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "String",
+  "code": "${string}.toLowerCase()",
+  "summary": "The lowercase version of a string.",
+  "id": ""
+}

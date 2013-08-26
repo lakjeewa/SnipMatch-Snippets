@@ -1,0 +1,20 @@
+{
+  "patterns": [
+    "sort $array in ascending order",
+    "$array sort in ascending order"
+  ],
+  "params": [
+    {
+      "name": "array",
+      "majorType": "expr",
+      "minorType": "$array"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "Arrays.sort(${array});
+  ${imp:import(java.util.Arrays)}${cursor}",
+  "summary": "Sort array in ascending order",
+  "id": ""
+}

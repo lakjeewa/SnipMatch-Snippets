@@ -1,0 +1,23 @@
+{
+  "patterns": [
+    "last $n characters in $string"
+  ],
+  "params": [
+    {
+      "name": "n",
+      "majorType": "expr",
+      "minorType": "int"
+    },
+    {
+      "name": "string",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "String ${result} = ${string}.substring(${string}.length()-${n}, ${string}.length());",
+  "summary": "Last $n characters in $string",
+  "id": ""
+}

@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    "println",
+    "pl"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "System.out.println(${cursor});",
+  "summary": "println",
+  "id": ""
+}

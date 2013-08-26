@@ -1,0 +1,26 @@
+{
+  "patterns": [
+    "create Swing button in $parent"
+  ],
+  "params": [
+    {
+      "name": "parent",
+      "majorType": "expr",
+      "minorType": "java.awt.Component"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "${buttonType:newType(javax.swing.JButton)} ${button:newName(javax.swing.JButton)}= new ${buttonType}(\"${cursor}\");
+${parent}.add(${button});
+${button}.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO: Insert button action here.
+			}
+		});
+${imp:import(javax.swing.JButton,java.awt.event.ActionListener,java.awt.event.ActionEvent)}${cursor}",
+  "summary": "Create a Swing button in an AWT component.",
+  "id": ""
+}

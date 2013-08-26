@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    "fit AWT component $component to contents"
+  ],
+  "params": [
+    {
+      "name": "component",
+      "majorType": "expr",
+      "minorType": "java.awt.Component"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "${frame}.pack();",
+  "summary": "Fits an AWT component to its contents.",
+  "id": ""
+}

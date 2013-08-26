@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    "remove whitespace from beginning and end of $string (trim)"
+  ],
+  "params": [
+    {
+      "name": "string",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "${string} = ${string}.trim();",
+  "summary": "Remove whitespace from beginning and end a string (trim)",
+  "id": ""
+}

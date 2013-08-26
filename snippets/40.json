@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    "convert int $int to String"
+  ],
+  "params": [
+    {
+      "name": "int",
+      "majorType": "expr",
+      "minorType": "int"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "String ${name} = Integer.toString(${number});",
+  "summary": "convert $int to String",
+  "id": ""
+}

@@ -1,0 +1,18 @@
+{
+  "patterns": [
+    "convert double $double to String"
+  ],
+  "params": [
+    {
+      "name": "double",
+      "majorType": "expr",
+      "minorType": "Double"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "String ${str} = Double.toString(${double});",
+  "summary": "Convert $double to String",
+  "id": ""
+}

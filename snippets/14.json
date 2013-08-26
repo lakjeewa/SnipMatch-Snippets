@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    "move file at $filePathString to folder $dirPathString",
+    "move file at $filePathString to directory $dirPathString"
+  ],
+  "params": [
+    {
+      "name": "filePathString",
+      "majorType": "expr",
+      "minorType": "String"
+    },
+    {
+      "name": "dirPathString",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "stmt",
+  "minorType": "",
+  "code": "${type:newType(java.io.File)} ${file:newName(java.io.File)} = new ${type}(${filePathString});
+  ${file}.renameTo(new File(${dirPathString} + File.separator + ${file}.getName()));",
+  "summary": "Move the file at a string path to a directory string path.",
+  "id": ""
+}

@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "$string uppercase",
+    "uppercase $string"
+  ],
+  "params": [
+    {
+      "name": "string",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "String",
+  "code": "${string}.toUpperCase()",
+  "summary": "Convert string to all uppercase characters",
+  "id": ""
+}

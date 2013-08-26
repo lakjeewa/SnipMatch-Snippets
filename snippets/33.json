@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    "print",
+    "p"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "System.out.print(${cursor});",
+  "summary": "print",
+  "id": ""
+}

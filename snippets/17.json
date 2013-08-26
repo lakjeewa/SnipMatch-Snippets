@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "text in Swing textfield $textField",
+    "contents of Swing textbox $textField"
+  ],
+  "params": [
+    {
+      "name": "textField",
+      "majorType": "expr",
+      "minorType": "javax.swing.JTextField"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "String",
+  "code": "${textField}.getText()",
+  "summary": "Text contents of Swing text field.",
+  "id": ""
+}

@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "read list of files in folder $pathString",
+    "get list of files in folder $pathString"
+  ],
+  "params": [
+    {
+      "name": "pathString",
+      "majorType": "expr",
+      "minorType": "String"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "",
+  "code": "${type:newType(java.io.File)}[] ${files} = new ${type}(${pathString}).listFiles();",
+  "summary": "Load files from a directory into an array of File objects.",
+  "id": ""
+}

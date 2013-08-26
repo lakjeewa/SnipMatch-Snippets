@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    "filename of $fileObject",
+    "$fileObject filename"
+  ],
+  "params": [
+    {
+      "name": "fileObject",
+      "majorType": "expr",
+      "minorType": "java.io.File"
+    }
+  ],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "String",
+  "code": "${fileObject}.getName()",
+  "summary": "Name of file.",
+  "id": ""
+}

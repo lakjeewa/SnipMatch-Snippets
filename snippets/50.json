@@ -1,0 +1,16 @@
+{
+  "patterns": [
+    "empty class with main method"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "public class example {
+	public static void main(String[] args) {
+		${cursor}
+	}
+}",
+  "summary": "empty class with main method",
+  "id": ""
+}

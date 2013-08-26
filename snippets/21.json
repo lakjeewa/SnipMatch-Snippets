@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "else"
+  ],
+  "params": [],
+  "envName": "javasnippet",
+  "majorType": "expr",
+  "minorType": "void",
+  "code": "else\r\n{\r\n${cursor}\r\n}",
+  "summary": "else statement",
+  "id": ""
+}
